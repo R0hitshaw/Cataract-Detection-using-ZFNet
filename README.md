@@ -62,12 +62,5 @@ ZFNet is a convolutional neural network architecture that was introduced as a va
 
 Include any relevant results or performance metrics obtained from training and evaluating the model on your dataset.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- This project was inspired by the work of [researchers](link_to_research_paper) in the field of medical image analysis.
-- Thanks to the creators of ZFNet and TensorFlow for providing powerful tools for deep learning.
 ```  
