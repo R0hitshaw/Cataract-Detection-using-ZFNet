@@ -42,7 +42,47 @@ Ensure that you have a dataset of eye images containing both cataract and normal
 
 ## Model
 
-ZFNet is a convolutional neural network architecture that was introduced as a variant of AlexNet. It consists of several convolutional layers followed by max-pooling layers and fully connected layers. The model has shown promising results in image classification tasks.
+ZFNet was designed to improve upon AlexNet by making subtle adjustments to the network's structure, including:
+
+Smaller receptive field: Reduced the size of the first convolutional layer’s filters from 11x11 to 7x7. This change increased feature localization, capturing finer details.
+
+Increased strides: Larger strides in initial layers led to improved data utilization and reduced computational overhead.
+
+Visualization insights: Developed innovative visualization techniques to observe how CNNs interpret images at different layers, a key advancement in understanding the "black-box" nature of neural networks.
+
+
+These changes led to a more efficient network capable of achieving better accuracy and generalization than its predecessors.
+
+Key Features
+
+Architecture Enhancements: Adjustments to filter sizes, strides, and feature extraction approaches.
+
+Visualization Techniques: Pioneered deconvolutional network visualization to understand the learned features at each layer.
+
+Improved Accuracy: Achieved superior performance on classification tasks compared to AlexNet.
+
+
+Architecture
+
+ZFNet follows a similar structure to AlexNet, with five convolutional layers followed by three fully connected layers. However, it includes crucial changes to the convolutional layers:
+
+1. First Layer: 7x7 filters with a stride of 2.
+
+
+2. Subsequent Layers: Various kernel and pooling adjustments to optimize feature extraction.
+
+
+3. Visualization Layers: Added to inspect intermediate layer outputs, offering insights into how features are learned.
+
+
+
+Advantages of ZFNet
+
+Improved localization and recognition: Due to smaller filters in the initial layers.
+
+Reduced overfitting: Better suited to capture high-level image details without excessive complexity.
+
+Enhanced interpretability: Visualization methods provide insights into the hierarchical feature learning of CNNs.
 
 ## Results
 
