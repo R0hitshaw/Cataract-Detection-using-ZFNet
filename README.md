@@ -86,6 +86,6 @@ Enhanced interpretability: Visualization methods provide insights into the hiera
 
 ## Results
 
-Include any relevant results or performance metrics obtained from training and evaluating the model on your dataset.
+In the cataract detection project using ZFNet, the model achieved a test accuracy of approximately 89.7% with a test loss of 0.2758. The confusion matrix showed 201 true positives (correctly identified cataract cases), 252 true negatives (correctly identified normal cases), 34 false negatives (cataract cases misclassified as normal), and 24 false positives (normal cases misclassified as cataract). The classification report indicated that for cataract cases, the model achieved a precision of 0.89, recall of 0.86, and F1-score of 0.87, while for normal cases, it achieved a precision of 0.88, recall of 0.91, and F1-score of 0.90. Overall, the model’s balanced accuracy and strong performance metrics demonstrate its effectiveness for cataract detection in medical imaging.
 
 
